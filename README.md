@@ -54,9 +54,9 @@ Before you jump in, take 10 minutes to review the design files. Take time to see
 ​
 You **must** use the Google Chrome developer tools during your HTML/CSS implementation process. The tools use emulation software to "pretend" that they are actually a smaller screen; you cannot get the same effect from simply pinching your browser smaller. This will also allow you to view sizes larger than your current monitor's size, such as the standard 1920x1080px desktop width. You will not be successful with properly implementing a responsive website without using the developer tools.
 ​
-* [ ] Desktop size should be responsive at 1920px width.
-* [ ] Mobile size should be responsive at 428px width.
-* [ ] Don't forget your viewport meta tag!
+* [x] Desktop size should be responsive at 1920px width.
+* [x] Mobile size should be responsive at 428px width.
+* [x] Don't forget your viewport meta tag!
 ​
 **NOTE: You may notice that your design doesn't look great between these sizes. This is totally normal; for a real product, there would be at least a tablet size intermediary design and likely several more breakpoints to improve the experience for a variety of screen sizes. If you would like to practice more, feel free to make the project look great at all sizes!**
 ​
@@ -69,10 +69,10 @@ You **must** use the Google Chrome developer tools during your HTML/CSS implemen
 ​
 Review the provided design file for the home page.
 ​
-* [ ] Build the HTML and CSS to create the missing header and footer sections.
-* [ ] Link the h1 page title to the [index.html](index.html) page.
-* [ ] Link the `Menu` navigation item to the [menu.html](menu.html) page.
-* [ ] Create social media buttons on header for Facebook, Twitter, and Instagram with icons from [FontAwesome](https://fontawesome.com/search). *NOTE: * ENSURE that the icon name includes "facebook", "twitter", or "instagram" respectively.
+* [x] Build the HTML and CSS to create the missing header and footer sections.
+* [x] Link the h1 page title to the [index.html](index.html) page.
+* [x] Link the `Menu` navigation item to the [menu.html](menu.html) page.
+* [x] Create social media buttons on header for Facebook, Twitter, and Instagram with icons from [FontAwesome](https://fontawesome.com/search). *NOTE: * ENSURE that the icon name includes "facebook", "twitter", or "instagram" respectively.
 * [ ] Build the rest of the home page layout to match the design. Much of it has already been implemented; you should only need to fix the header, footer, and gallery portions.
 ​
 Colors and fonts:

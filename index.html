@@ -2,54 +2,81 @@
 
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="css/index.css" />
     <title>Sprint Challenge - Home</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       href="https://fonts.googleapis.com/css?family=Roboto|Rubik"
       rel="stylesheet"
     />
-    <script
-      src="https://kit.fontawesome.com/5b12ffad4b.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/5b12ffad4b.js"crossorigin="anonymous">
+	</script>
   </head>
 
   <body>
     <div>
       <!-- header -->
       <header>
-        <div>
-          <a href="./index.html"><h1>BLOOMTECH BAR AND GRILL</h1></a>
+
+          <a href="index.html"><h1>BLOOMTECH BAR AND GRILL</h1></a>
+
 
           <!-- nav -->
-			<div class="nav links">
-				<a href="./menu.html">Menu</a>
-				<a href="">Reservations</a>
-				<a href="">Special Offers</a>
-				<a href="">Contact</a>
-			</div>
-        </div>
+		  		<div class="header-bar">
+					<nav>
+						<div class="header-nav">
+							<a href="menu.html">Menu</a>
+							<a href="">Reservations</a>
+							<a href="">Special Offers</a>
+							<a href="">Contact</a>
+						</div>
+						<div class="socialmedia-icons">
+							<div>
+								<a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a>
+								<a href="https://twitter.com/"><i class="fa-brands fa-square-twitter"></i></a>
+								<a href="https://www.instagram.com/"><i class="fa-brands fa-square-instagram"></i></a>
+							</div>
+						</div>
+					</nav>
+				</div>
       </header>
 
       <!-- gallery section -->
-      <section class="gallery">
-        <div>
-          <h2>OUR FOOD</h2>
-
-          <img src="/food-avocadotoast.jpg" alt="Picture of two avacado toast" /> 
-		  <img src="img/food-burger.jpg" alt="Picture of a Burder" />  
-		  <img src="img/food-poutine.jpg" alt="Picture of a poutine dish" /> 
-          <img src="img/food-ribs.jpg" alt="Picture of gourmet ribs" />  
-		  <img src="img/food-sandwich.jpg" alt="Picture of a sandwich cut in half" />  
-		  <img src="img/food-sausage.jpg" alt="Picture of a sausage dish" /> 
-          <img src="img/food-steak.jpg" alt="Picture of a steak plate" />  
-		  <img src="img/food-tacos.jpg" alt="Picture of three tacos" />  
-		  <img src="img/food-wings.jpg" alt="Picture of fried chicken wings" /> 
-        </div>
-      </section>
+		<section class="gallery">
+		
+			<h2>OUR FOOD</h2>
+			<div class="food-container">
+				<div class="food-img">
+					<img src="img/food-avocadotoast.jpg" alt="Picture of two avacado toast" />
+				</div>
+				<div class="food-img">
+					<img src="img/food-burger.jpg" alt="Picture of a Burder" />
+				</div>
+				<div class="food-img">  
+					<img src="img/food-poutine.jpg" alt="Picture of a poutine dish" />
+				</div>
+				<div class="food-img"> 
+					<img src="img/food-ribs.jpg" alt="Picture of gourmet ribs" />
+				</div>
+				<div class="food-img">  
+					<img src="img/food-sandwich.jpg" alt="Picture of a sandwich cut in half" />
+				</div>
+				<div class="food-img">  
+					<img src="img/food-sausage.jpg" alt="Picture of a sausage dish" />
+				</div>
+				<div class="food-img"> 
+					<img src="img/food-steak.jpg" alt="Picture of a steak plate" />
+				</div>
+				<div class="food-img">  
+					<img src="img/food-tacos.jpg" alt="Picture of three tacos" />
+				</div>
+				<div class="food-img">  
+					<img src="img/food-wings.jpg" alt="Picture of fried chicken wings" />
+				</div>
+			</div>
+    	</section>
 
       <!-- spacer -->
       <div class="spacer"></div>
@@ -127,19 +154,29 @@
       <div class="spacer-sm"></div>
 
       <!-- footer -->
-      <footer>
-        <!-- email signup -->
-        Join our mailing list! Sign Up
-        <!-- nav -->
-        <nav>
-            <a href="./menu.html" >Menu</a>
-            <a href="">Reservations</a>
-            <a href="">Special Offers</a>
-            <a href="">Contact</a>
-        </nav>
-        <!-- copyright -->
-        ©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.
-      </footer>
+		</div class="footer-div">
+			<footer>
+				<!-- email signup -->
+				
+				<!-- nav -->
+				<nav>
+					<div class="footer-nav">
+						<p>Join our mailing list!</p>
+						<a href="menu.html" >Menu</a>
+						<a href="">Reservations</a>
+						<a href="">Special Offers</a>
+						<a href="">Contact</a>
+					</div>
+					<div class="email">
+						<input class="email-input"type="text" placeholder="Email Address"><button>Sign Up</button>
+					</div>
+				</nav>
+				<!-- copyright -->
+				<div class="copyright">
+					<p>©2022 BloomTech Restaurant Group, Inc. All Rights Reserved.</p>
+				</div>
+			</footer>
+		</div>
     </div>
   </body>
 </html>
